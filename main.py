@@ -50,7 +50,7 @@ def main():
                        "difficult and enduring conflicts, with both sides suffering from periodic bouts of violence "
                        "and ongoing political instability.")
         st.session_state['user_input'] = custom_text  # Update session state
-        st.experimental_rerun()  # Rerun the script to update the text input field
+        st.rerun()  # Rerun the script to update the text input field
 
     if st.button('Summarize '):
         if user_input:
