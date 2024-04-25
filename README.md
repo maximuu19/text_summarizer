@@ -43,7 +43,8 @@ Finally, the script includes a sample usage of the trained model for summarizing
 
 Please replace the placeholders for 'HUGGINGFACE_TOKEN' and 'wandb_api' with your actual tokens in the following lines:
 
-```python
+## python 
+```
 os.environ['huggingface_read_token'] = user_secrets.get_secret("HUGGINGFACE_TOKEN")
 os.environ['WANDB_API_KEY'] = user_secrets.get_secret("wandb_api")
 ```
