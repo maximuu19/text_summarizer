@@ -9,7 +9,6 @@ https://summarizerriver.streamlit.app/
 https://www.kaggle.com/code/abhilashdas/summarizer
 
 
-```markdown
 # Text Summarization with T5
 
 This repository contains a script for text summarization using the T5 model from Hugging Face's Transformers library.
@@ -44,10 +43,10 @@ Finally, the script includes a sample usage of the trained model for summarizing
 Please replace the placeholders for 'HUGGINGFACE_TOKEN' and 'wandb_api' with your actual tokens in the following lines:
 
 ## python 
-```
+
 os.environ['huggingface_read_token'] = user_secrets.get_secret("HUGGINGFACE_TOKEN")
 os.environ['WANDB_API_KEY'] = user_secrets.get_secret("wandb_api")
-```
+
 
 
 
