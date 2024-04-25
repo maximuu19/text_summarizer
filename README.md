@@ -6,8 +6,9 @@ And deployed it on streamlit
 https://summarizerriver.streamlit.app/
 
 
-https://www.kaggle.com/code/abhilashdas/summarizer
 
+## Finetuning and hosting on huggingface 🤗
+https://www.kaggle.com/code/abhilashdas/summarizer
 
 # Text Summarization with T5
 
@@ -39,13 +40,6 @@ The model is trained using Hugging Face's `Seq2SeqTrainer` with specified traini
 Finally, the script includes a sample usage of the trained model for summarizing a given text.
 
 ## Note
-
-Please replace the placeholders for 'HUGGINGFACE_TOKEN' and 'wandb_api' with your actual tokens in the following lines:
-
-## python 
-
-os.environ['huggingface_read_token'] = user_secrets.get_secret("HUGGINGFACE_TOKEN")
-os.environ['WANDB_API_KEY'] = user_secrets.get_secret("wandb_api")
 
 
 
