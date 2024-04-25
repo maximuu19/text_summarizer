@@ -32,7 +32,7 @@ def main():
     col1, col2 = st.columns([5, 1])  # adjust the numbers to change the relative sizes of the columns
 
     # Place the text input field in the first column and the button in the second column
-    user_input = col1.text_area('Enter text (anything above 1024 tokens will be truncated)',
+    user_input = col1.text_area('Enter long text (anything above 1024 tokens will be chunked)',
                                 value=st.session_state['user_input'], height=200)
 
     # Add a button for adding custom text
