@@ -3,13 +3,11 @@ Hosted it on huggingface.
 And deployed it on streamlit
 
 
-
 https://summarizerriver.streamlit.app/
 
 
 https://www.kaggle.com/code/abhilashdas/summarizer
-'''
-Sure, here is a README file for your repository:
+
 
 ```markdown
 # Text Summarization with T5
@@ -49,8 +47,7 @@ Please replace the placeholders for 'HUGGINGFACE_TOKEN' and 'wandb_api' with you
 os.environ['huggingface_read_token'] = user_secrets.get_secret("HUGGINGFACE_TOKEN")
 os.environ['WANDB_API_KEY'] = user_secrets.get_secret("wandb_api")
 ```
-```
-'''
+
 
 
 ![ai sumnmarizer](https://github.com/maximuu19/text_summarizer/assets/46569476/0834a0e3-0b34-4c45-9bf2-ac7d1b3b92a1)
