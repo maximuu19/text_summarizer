@@ -7,13 +7,13 @@ And deployed it on streamlit
 
 
 
-## Finetuning and hosting on huggingface 🤗
-# Kaggle notebook
+# Finetuning and hosting on huggingface 🤗
+## Kaggle notebook
 ![Kaggle notebook 📙](https://www.kaggle.com/code/abhilashdas/summarizer)
 
 
 
-# Text Summarization with T5
+## Text Summarization with T5
 
 This repository contains a script for text summarization using the T5 model from Hugging Face's Transformers library.
 
@@ -42,7 +42,7 @@ The model is trained using Hugging Face's `Seq2SeqTrainer` with specified traini
 
 Finally, the script includes a sample usage of the trained model for summarizing a given text.
 
-## Note
+# Thank you
 
 
 
