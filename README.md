@@ -3,12 +3,15 @@ Hosted it on huggingface.
 And deployed it on streamlit
 
 
-https://summarizerriver.streamlit.app/
+![Link to AI Sumnmarizer App ✏️](https://summarizerriver.streamlit.app/)
 
 
 
 ## Finetuning and hosting on huggingface 🤗
-https://www.kaggle.com/code/abhilashdas/summarizer
+# Kaggle notebook
+![Kaggle notebook 📙](https://www.kaggle.com/code/abhilashdas/summarizer)
+
+
 
 # Text Summarization with T5
 
