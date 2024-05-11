@@ -5,7 +5,7 @@ And deployed it on streamlit
 
 
 ![Link to AI Sumnmarizer App ✏️](https://summarizerriver.streamlit.app/)
-https://www.kaggle.com/code/abhilashdas/summarizer
+
 
 
 # Finetuning and hosting on huggingface 🤗
